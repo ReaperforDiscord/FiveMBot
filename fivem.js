@@ -251,4 +251,4 @@ client.on("message", async message => {
 
 
 client.login(config.token);
-bot.login(token);
+bot.login(process.env.token);
